@@ -2,6 +2,8 @@
 # Author: xiaoran
 # Time: 2018-11-17 19:23
 
+import numpy as np
+
 class SimilarityUtil(object):
     '''
     支持计算两个对应的相似度，参数可以list，tuple，字符串，字典
@@ -11,5 +13,5 @@ class SimilarityUtil(object):
     def __init__(self):
         pass
 
-    def similarity(self):
+    def similarity(self, simFunc, a, b):
         pass
